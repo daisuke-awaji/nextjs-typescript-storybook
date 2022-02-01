@@ -36,7 +36,14 @@ export const Header: React.FC<{ username: string }> = ({ username }) => {
           <span className="font-bold">{username}</span>
         </a>
       </div>
-      <div className="flex items-center flex-none">icon</div>
+
+      <div className="text-xs font-mono text-white h-4 w-4 rounded-full flex items-center justify-center bg-gray-700 sm:bg-pink-500 md:bg-orange-500 lg:bg-green-500 xl:bg-blue-500">
+        <div className="block  sm:hidden md:hidden lg:hidden xl:hidden">al</div>
+        <div className="hidden sm:block  md:hidden lg:hidden xl:hidden">sm</div>
+        <div className="hidden sm:hidden md:block  lg:hidden xl:hidden">md</div>
+        <div className="hidden sm:hidden md:hidden lg:block  xl:hidden">lg</div>
+        <div className="hidden sm:hidden md:hidden lg:hidden xl:block">xl</div>
+      </div>
     </div>
   );
 };
