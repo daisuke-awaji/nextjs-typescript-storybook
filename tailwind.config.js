@@ -16,8 +16,9 @@ module.exports = {
       'mono': ['ui-monospace', 'SFMono-Regular']
     },
     fontSize: {
-      'xxs': '.50rem',
-      'xs': '.75rem',
+      'tiny': '.1rem',
+      'xxs': '.125rem',
+      'xs': '.25rem',
       'sm': '.50rem',
       'base': '.75rem',
       'lg': '1.0rem',
@@ -31,6 +32,7 @@ module.exports = {
       '8xl': '5rem',
     },
     spacing: {
+      '0.5': '4px',
       '1': '8px',
       '2': '16px',
       '3': '24px',

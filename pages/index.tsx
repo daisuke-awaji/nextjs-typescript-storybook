@@ -6,7 +6,7 @@ import { AiFillPieChart, AiOutlineAreaChart, AiOutlineBarChart } from 'react-ico
 const Home: NextPage = () => {
   return (
     <Layout>
-      <h1 className="text-xl font-bold pb-1">Issue</h1>
+      <h1 className="text-xl font-bold pb-1">Home</h1>
       <p className="text-gray-700">Schema last updated 23 hours ago</p>
 
       <div className="flex flex-col mb-5 lg:mb-3 lg:flex-row h-full">
